@@ -23,7 +23,13 @@ const useStyles = makeStyles((theme) => ({
         height: 40,
         width: "70px",
         padding: '0 11px',
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
     },
+    clasificationTitle: {
+        fontFamily: "Nunito"
+    }
 }));
 
 const stickers = [
@@ -41,7 +47,9 @@ export const Stickers = ({ clasification, colorPalette }) => {
     return (
         <main className={classes.content}>
             <div className={classes.toolbar}/>
-            <Typography variant="h5" className={classes.clasification}>{clasification}</Typography>
+            <div className={classes.clasification}>
+                <Typography variant="h5" className={classes.clasificationTitle}>{clasification}</Typography>
+            </div>
             <Grid container justify="center" spacing={4}>
                 {stickers.map((sticker) => (
                     <Grid item key={sticker.id} xs={12} sm={6} md={4} lg={3}>
