@@ -4,8 +4,8 @@ import { Card, CardMedia, CardContent, Typography, makeStyles } from '@material-
 const useStyles = makeStyles({
     root: {
         maxWidth: '100%',
-        border: "1px solid #40e495",
-        boxShadow: "0 3px 6px 0 rgba(49, 196, 190, 0.75)",
+        border: colorPalette => `1px solid ${colorPalette.firstColor}`,
+        boxShadow: colorPalette => `0 3px 6px 0${colorPalette.thirdColor}`,
         background: "rgb(0,0,0,0.6)",
         color: "#fff",
         fontFamily: "Nunito"
@@ -29,9 +29,9 @@ const useStyles = makeStyles({
     }
 });
 
-export const Sticker = ({ stickers }) => {
-    const classes = useStyles();
-
+export const Sticker = ({ stickers, colorPalette }) => {
+    const classes = useStyles(colorPalette);
+    
     return (
         <Card className={classes.root}>
             <CardMedia className={classes.media} image={stickers.image} title={stickers.name}/>

@@ -6,23 +6,24 @@ const useStyles = makeStyles((theme) => ({
     toolbar: theme.mixins.toolbar,
     content: {
         flexGrow: 1,
-        backgroundColor: theme.palette.background.default,
-        padding: theme.spacing(8),
+        backgroundImage:`url(${process.env.PUBLIC_URL + '/assets/Desktop.png'})`,
+        backgroundSize: 'cover',
+        padding: theme.spacing(7),
     },
     root: {
         flexGrow: 1,
     },
     clasification: {
-        margin: "1px",
-        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        marginBottom: "10px",
+        background: colorPalette => `linear-gradient(45deg, ${colorPalette.firstColor} 30%, ${colorPalette.secondColor} 90%)`,
         border: 0,
         borderRadius: 3,
-        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+        boxShadow: colorPalette => `0 0px 5px 1px ${colorPalette.secondColor}`,
         color: 'white',
         height: 40,
-        width: 50,
+        width: "70px",
         padding: '0 11px',
-    }
+    },
 }));
 
 const stickers = [
@@ -35,16 +36,16 @@ const stickers = [
 
 ];
 
-export const Stickers = () => {
-    const classes = useStyles();
+export const Stickers = ({ clasification, colorPalette }) => {
+    const classes = useStyles(colorPalette);
     return (
         <main className={classes.content}>
             <div className={classes.toolbar}/>
-            <Typography variant="h5" className={classes.clasification}>Élite</Typography>
+            <Typography variant="h5" className={classes.clasification}>{clasification}</Typography>
             <Grid container justify="center" spacing={4}>
                 {stickers.map((sticker) => (
                     <Grid item key={sticker.id} xs={12} sm={6} md={4} lg={3}>
-                        <Sticker stickers={sticker}/>
+                        <Sticker stickers={sticker} colorPalette={colorPalette}/>
                     </Grid>
                 ))}
             </Grid>

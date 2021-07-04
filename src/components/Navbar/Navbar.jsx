@@ -6,13 +6,14 @@ const useStyles = makeStyles({
         display: "flex",
         justifyContent: "left",
         alignItems: "left",
+        backgroundColor: "#000"
     },
     appbar: {
         background: "none",
         left: "20px",
     },
     title: {
-        color: "#000",
+        color: "#fff",
         fontFamily: "Nunito",
         left: "30px",
     },
