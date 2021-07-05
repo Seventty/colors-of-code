@@ -35,7 +35,7 @@ const Navbar = () => {
         <div>
             <AppBar position="fixed" className={classes.root} color="inherit">
                 <Toolbar className={classes.appbar}>
-                    <Typography variant="h6" className={classes.title}>#Colors-of-Code
+                    <Typography variant="h6" className={classes.title}>#ColorsofCode
                         <span className={classes.colorsTag}>Collection</span>
                     </Typography>
                 </Toolbar>
