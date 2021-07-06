@@ -20,15 +20,15 @@ const elites = [
 ];
 
 const epicos = [
-    /* { id: 1, name: "Scaly Python", description: "", image: "https://imgur.com/CJS0VMT.png"},
-    { id: 2, name: "Nature NodeJS", description: "", image: "https://imgur.com/0bIPmX2.png"},
-    { id: 3, name: "GoFlashng", description: "", image: "https://imgur.com/M9kW1j6.png"},
-    { id: 4, name: "CSharp Royal Throne", description: "", image: "https://imgur.com/CyTIsPh.png"},
-    { id: 5, name: "Java Interestelar", description: "", image: "https://imgur.com/rlctEJ1.png"},
-    { id: 6, name: "Clock Vim", description: "", image: "https://imgur.com/PXne0mq.png"},
-    { id: 7, name: "VScodex Deluxe", description: "", image: "https://imgur.com/Xzah5oZ.png"},
-    { id: 8, name: "Bonfire FireBase", description: "", image: "https://imgur.com/jEMK43p.png"},
-    { id: 9, name: "Styled Ubuntu", description: "", image: "https://imgur.com/nSPjKIM.png"}, */
+    { id: 1, name: "Scaly Python", description: "", image: "https://i.ibb.co/rGzpRRz/Python-Epico.webp"},
+    { id: 2, name: "Nature NodeJS", description: "", image: "https://i.ibb.co/2Pcmqj8/Node-Epico.webp"},
+    { id: 3, name: "GoFlashng", description: "", image: "https://i.ibb.co/gJC57Hh/GoEpico.webp"},
+    { id: 4, name: "CSharp Royal Throne", description: "", image: "https://i.ibb.co/mbDwZpB/CEpico.webp"},
+    { id: 5, name: "Java Interestelar", description: "", image: "https://i.ibb.co/SsvWkNj/Java-Epico.webp"},
+    { id: 6, name: "Clock Vim", description: "", image: "https://i.ibb.co/Tw5VZBC/VimEpico.webp"},
+    { id: 7, name: "VScodex Deluxe", description: "", image: "https://i.ibb.co/M1z7B7f/VScode-Epico.webp"},
+    { id: 8, name: "Bonfire FireBase", description: "", image: "https://i.ibb.co/hHCMzJf/Firebase-Epico.webp"},
+    { id: 9, name: "Styled Ubuntu", description: "", image: "https://i.ibb.co/LggM9Vs/Ubuntu-Epico.webp"},
     
 ];
 
