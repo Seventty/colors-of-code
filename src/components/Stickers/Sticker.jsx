@@ -13,7 +13,8 @@ const useStyles = makeStyles({
     },
     special: {
         maxWidth: '100%',
-        border: "5px solid",
+        border: "3px solid",
+        boxShadow: "0 3px 6px 0 rgb(255, 255, 204, 0.40)",
         borderImage: "conic-gradient(from 0deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f2cb5f, #abf25f, #5ff281, #5ff2f0, #5f86f2) 1",
         background: "rgb(0,0,0,0.6)",
         color: "#fff",

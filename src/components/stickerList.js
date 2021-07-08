@@ -51,9 +51,8 @@ const gloriaMitica = [
 ];
 
 const temporada = [
-    {id: 1, name: "Sticker 1", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", image: "https://i.ibb.co/4pZgLbR/download.jpg"},
-    {id: 1, name: "Sticker 2", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", image: "https://i.ibb.co/4pZgLbR/download.jpg"},
-    {id: 1, name: "Sticker 3", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.", image: "https://i.ibb.co/4pZgLbR/download.jpg"},
+    {id: 1, name: "Próximamente", description: "Llega el verano y sabemos que el calor se apodera de tu código de programación. Próximamente la colección de stickers de verano con un estilo refrescante.", image: "https://imgur.com/WtaC3H6.png"},
+
 ];
 
 export {elites, epicos, miticos, gloriaMitica, temporada};
