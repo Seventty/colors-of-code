@@ -43,7 +43,7 @@ export const Sticker = ({ stickers, colorPalette, special, season }) => {
     const classes = useStyles(colorPalette);
     
     return (
-        <Card className={seasonStyle.season}>
+        <Card className={special ? classes.special : classes.root}>
             <CardMedia className={classes.media} image={stickers.image} title={stickers.name}/>
             <CardContent className={classes.cardBox}>
                 <div className={classes.CardContent}>
