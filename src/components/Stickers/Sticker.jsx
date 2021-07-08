@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, CardMedia, CardContent, Typography, makeStyles } from '@material-ui/core';
-import seasonStyle from './seasonStyle.module.css';
+
 
 const useStyles = makeStyles({
     root: {
