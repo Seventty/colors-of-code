@@ -28,7 +28,7 @@ const epicos = [
     { id: 5, name: "Java Interestelar", description: "Nacido a partir de la gran explosión que expandió el cosmos de la programación.", image: "https://i.ibb.co/SsvWkNj/Java-Epico.webp"},
     { id: 6, name: "Clock Vim", description: "No es más que los engranajes de tu propio destino; Tu agregas, tu quitas.", image: "https://i.ibb.co/Tw5VZBC/VimEpico.webp"},
     { id: 7, name: "VScodex Deluxe", description: "Solo un editor fuera de las dimensiones comprensibles por los mortales.", image: "https://i.ibb.co/M1z7B7f/VScode-Epico.webp"},
-    { id: 8, name: "Bonfire FireBase", description: "Adelante, aventuraro. Descansa tus dedos en la cálida fogata de tu propia biblioteca.", image: "https://i.ibb.co/hHCMzJf/Firebase-Epico.webp"},
+    { id: 8, name: "Bonfire FireBase", description: "Adelante, aventurero. Descansa tus dedos en la cálida fogata de tu propia biblioteca.", image: "https://i.ibb.co/hHCMzJf/Firebase-Epico.webp"},
     { id: 9, name: "Styled Ubuntu", description: "¿Listos? ¡Acción!", image: "https://i.ibb.co/LggM9Vs/Ubuntu-Epico.webp"},
     
 ];
