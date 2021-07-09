@@ -50,7 +50,7 @@ export const Stickers = ({ clasification, colorPalette, stickerList, special }) 
             <Grid container justify="center" spacing={4}>
                 {stickerList.map((sticker) => (
                     <Grid item key={sticker.id} xs={12} sm={6} md={4} lg={3}>
-                        <Sticker stickers={sticker} colorPalette={colorPalette} special={special}/>
+                        {<Sticker stickers={sticker} colorPalette={colorPalette} special={special}/>}
                     </Grid>
                 ))}
             </Grid>
