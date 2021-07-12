@@ -46,13 +46,13 @@ const miticos = [
 ];
 
 const gloriaMitica = [
-    {id: 1, name: "Vue 🍃", description: "Forjado en los manglares más profundos de la selva Amazónica, alimentado desde los inicios por las ramas que unifica al mundo.", image: "https://i.ibb.co/4pZgLbR/download.jpg"},
-    {id: 2, name: "Angular 🔥", description: "Forjado bajo el ígneo e infernal magma del volcan Puhahonu, comprimido hasta ser un mineral casi perfecto.", image: "https://i.ibb.co/4pZgLbR/download.jpg"},
-    {id: 3, name: "React 🌊", description: "Forjado en el abismo más profundo de la fosa de las Marianas, sometido a presiones abismales hasta ser transmutado como diamante por la presión de su entorno. Un lugar a donde no llega la luz...", image: "https://i.ibb.co/4pZgLbR/download.jpg"},
+    {id: 1, name: "Vue 🍃", description: "Forjado en los manglares más profundos de la selva Amazónica, alimentado desde los inicios por las ramas que unifica al mundo.", image: "https://i.ibb.co/6rB5KVb/WtaC3H6.png"},
+    {id: 2, name: "Angular 🔥", description: "Forjado bajo el ígneo e infernal magma del volcan Puhahonu, comprimido hasta ser un mineral casi perfecto.", image: "https://i.ibb.co/6rB5KVb/WtaC3H6.png"},
+    {id: 3, name: "React 🌊", description: "Forjado en el abismo más profundo de la fosa de las Marianas, sometido a presiones abismales hasta ser transmutado como diamante por la presión de su entorno. Un lugar a donde no llega la luz...", image: "https://i.ibb.co/6rB5KVb/WtaC3H6.png"},
 ];
 
 const temporada = [
-    {id: 1, name: "Próximamente", description: "Llega el verano y sabemos que el calor se apodera de tu código de programación. Próximamente la colección de stickers de verano con un estilo refrescante.", image: "https://imgur.com/WtaC3H6.png"},
+    {id: 1, name: "Próximamente", description: "Llega el verano y sabemos que el calor se apodera de tu código de programación. Próximamente la colección de stickers de verano con un estilo refrescante.", image: "https://i.ibb.co/6rB5KVb/WtaC3H6.png"},
 
 ];
 
