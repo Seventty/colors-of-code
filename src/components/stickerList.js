@@ -17,7 +17,6 @@ const elites = [
     { id: 16, name: "Ubuntu", description: "", image: "https://i.ibb.co/frccNFC/Ubuntu-Elite.webp"},
     { id: 17, name: "Windows", description: "", image: "https://i.ibb.co/6RJGP6t/Windows-Elite.webp"},
     { id: 12, name: "GitHub Void Egg", description: "", image: "https://i.ibb.co/gMcmWfy/GHElite.webp"},
-    
 ];
 
 const epicos = [
@@ -30,7 +29,6 @@ const epicos = [
     { id: 7, name: "VScodex Deluxe", description: "Solo un editor fuera de las dimensiones comprensibles por los mortales.", image: "https://i.ibb.co/M1z7B7f/VScode-Epico.webp"},
     { id: 8, name: "Bonfire FireBase", description: "Adelante, aventurero. Descansa tus dedos en la cálida fogata de tu propia biblioteca.", image: "https://i.ibb.co/hHCMzJf/Firebase-Epico.webp"},
     { id: 9, name: "Styled Ubuntu", description: "¿Listos? ¡Acción!", image: "https://i.ibb.co/LggM9Vs/Ubuntu-Epico.webp"},
-    
 ];
 
 const miticos = [
@@ -42,7 +40,6 @@ const miticos = [
     { id: 6, name: "Flutter Trochilidae", description: "Un ave que se creía al borde de la extinción por su propio olvido, se hicieron enormes esfuerzos por traerla nuevamente a la vida; Pero no se esperaría el salto evolutivo que daría, logrando sobrevivir en cualquier ambiente.", image: "https://i.ibb.co/DrcmLVw/Flutter-Mitico.webp"},
     { id: 8, name: "Arch Kapollo-DE", description: "Un transbordador lunar contruido a partir de los mejores metales que pudieron ser encontrados al rededor del mundo por la comunidad. Un transbordador de código libre que fue creado a partir del misterioso mecanismo llamado Linux.", image: "https://i.ibb.co/Vj25vz0/Arch-Mitico.webp"},
     { id: 7, name: "GitHub (The Void)", description: "El vacío es una entidad que vive bajo un plano dimensional de total vacío y que cuando aparece en nuestra dimensión, trae consigo el total caos y orden. Con su sola presencia, es capaz de llevar a una persona hacia el vórtice de la locura o sumergirlo en las aguas del entendimiento. En pocas palabras, el vacío es...  el orden y caos personificados. Por más que busques en internet, jamás encontraras una respuesta clara sobre qué es el Vacio, solo sabemos que es capaz de guardar un infinito conocimiento dentro de las infinitas bibliotecas de su universo. 🌙", image: "https://i.ibb.co/qF0Zb6j/GHMitico.webp"},
-
 ];
 
 const gloriaMitica = [
@@ -53,7 +50,6 @@ const gloriaMitica = [
 
 const temporada = [
     {id: 1, name: "Próximamente", description: "Llega el verano y sabemos que el calor se apodera de tu código de programación. Próximamente la colección de stickers de verano con un estilo refrescante.", image: "https://i.ibb.co/6rB5KVb/WtaC3H6.png"},
-
 ];
 
 export {elites, epicos, miticos, gloriaMitica, temporada};
