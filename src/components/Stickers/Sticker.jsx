@@ -37,6 +37,18 @@ const useStyles = makeStyles({
     },
     title: {
         fontFamily: "Nunito"
+    },
+    bronzeSubTitle: {
+        fontFamily: "Nunito",
+        color: "#cd7f32",
+    },
+    silverSubTitle: {
+        fontFamily: "Nunito",
+        color: "#c0c0c0",
+    },
+    goldSubTitle: {
+        fontFamily: "Nunito",
+        color: "#ffc200",
     }
 });
 
@@ -51,6 +63,7 @@ export const Sticker = ({ stickers, colorPalette, special, season }) => {
                     <Typography variant="h5" gutterBottom className={classes.title}>
                         {stickers.name}
                     </Typography>
+                    {stickers.rate ? <Typography variant="body2" className={stickers.rate === "Muy probable" ? classes.bronzeSubTitle : stickers.rate === "Medianamente probable" ? classes.silverSubTitle : classes.goldSubTitle} gutterBottom>Probabilidad: {stickers.rate}</Typography> : ``}
                 </div>
                 <Typography variant="body1">{stickers.description}</Typography>
             </CardContent>
